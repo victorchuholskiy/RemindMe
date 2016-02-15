@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/widget_next_signal_task"
+    android:initialLayout="@layout/widget_next_signal_task"
+    android:minHeight="40dp"
+    android:minWidth="40dp"
+    android:previewImage="@drawable/next_signal_note"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen"></appwidget-provider>

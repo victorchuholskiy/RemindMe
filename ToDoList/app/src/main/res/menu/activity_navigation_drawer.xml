@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_list_black"
+            android:title="@string/navigation_item_all"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_note"
+            android:icon="@drawable/ic_access_alarm_black"
+            android:title="@string/navigation_item_with_signal" />
+        <item
+            android:id="@+id/nav_note_without_notification"
+            android:icon="@drawable/ic_alarm_off_black"
+            android:title="@string/navigation_item_note" />
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_open_calendar"
+            android:icon="@drawable/ic_event_note_black"
+            android:title="Открыть календарь"/>
+    </group>
+
+</menu>

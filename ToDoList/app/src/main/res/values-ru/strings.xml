@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">RemindMe</string>
+
+    <string name="navigation_drawer_open">Меню открыто</string>
+    <string name="navigation_drawer_close">Меню закрыто</string>
+
+    <string name="navigation_item_all">Все</string>
+    <string name="navigation_item_note">Заметки без уведомлений</string>
+    <string name="navigation_item_with_signal">Заметки с уведомлениями</string>
+    <string name="navigation_item_categories">Категории</string>
+
+    <string name="ok">Да</string>
+    <string name="no">Нет</string>
+    <string name="cancel">Отменить</string>
+    <string name="color_picker_dialog_name">Выбор цвета</string>
+
+    <string name="task_header">Заголовок</string>
+    <string name="task_description">Описание</string>
+    <string name="task_color">Цвет</string>
+    <string name="task_add_signal">Добавить сигнал</string>
+
+    <string name="speak_choose_field">Выберите поле</string>
+    <string name="speak_please">Говорите, пожалуйста...</string>
+
+    <string name="vibration_on">Вибрация включена</string>
+    <string name="vibration_off">Вибрация выключена</string>
+
+    <string name="signal_on">Сигнал включен</string>
+    <string name="signal_off">Сигнал выключен</string>
+
+    <string name="time">Время:</string>
+
+    <string name="task_set_time">Время сигнала: </string>
+    <string name="task_set_signal">Выбрать мелодию</string>
+    <string name="task_set_vibration">Включить вибрацию</string>
+    <string name="task_event_in_calendar">Заметка помещена в календарь</string>
+    <string name="task_event_not_in_calendar">Заметка не помещена в календарь</string>
+
+    <string name="appwidget_text">Добавить заметку</string>
+    <string name="add_widget">Добавить заметку</string>
+
+    <string name="save_buffer">Данные скопированы в буфер обмена</string>
+    <string name="open_calendar">Открыть календарь</string>
+    <string name="event_not_found">Событие не найдено в календаре. Возможно оно было удалено.</string>
+
+    <string name="note_not_found">Не найдена следующая заметка с уведомлением.</string>
+</resources>

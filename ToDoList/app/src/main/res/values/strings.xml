@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">RemindMe</string>
+
+    <string name="navigation_drawer_open">Menu is opened</string>
+    <string name="navigation_drawer_close">Menu is closed</string>
+
+    <string name="navigation_item_all">All</string>
+    <string name="navigation_item_note">Notes without notifications</string>
+    <string name="navigation_item_with_signal">Notes with notifications</string>
+    <string name="navigation_item_categories">Categories</string>
+
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="color_picker_dialog_name">Color Picker</string>
+
+    <string name="task_header">Header</string>
+    <string name="task_description">Description</string>
+    <string name="task_color">Color</string>
+    <string name="task_add_signal">Add signal</string>
+
+    <string name="speak_choose_field">Choose the field</string>
+    <string name="speak_please">Please, speak...</string>
+
+    <string name="vibration_on">Vibration is on</string>
+    <string name="vibration_off">Vibration is off</string>
+
+    <string name="signal_on">Alarm is on</string>
+    <string name="signal_off">Alarm is off</string>
+
+    <string name="time">Time:</string>
+
+    <string name="task_set_time">Signal time: </string>
+    <string name="task_set_signal">Select a tune</string>
+    <string name="task_set_vibration">Add vibration</string>
+    <string name="task_event_in_calendar">Event is in calendar</string>
+    <string name="task_event_not_in_calendar">Event is not in calendar</string>
+
+    <string name="appwidget_text">Add note</string>
+    <string name="add_widget">Add note</string>
+
+    <string name="save_buffer">Data save in the buffer</string>
+    <string name="open_calendar">Open calendar</string>
+    <string name="event_not_found">Event is not found in calendar.</string>
+
+    <string name="note_not_found">Next not with alarm is not found.</string>
+</resources>

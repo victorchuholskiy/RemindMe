@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SlideToUnlock">
+        <attr name="sliderColor" format="color"/>
+        <attr name="cancelOnYExit" format="boolean"/>
+        <attr name="slideToUnlockText" format="string"/>
+        <attr name="slideToUnlockTextColor" format="color"/>
+        <attr name="slideToUnlockBackgroundColor" format="color"/>
+        <attr name="cornerRadiusX" format="dimension"/>
+        <attr name="cornerRadiusY" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomStyle">
+        <attr name="custom_font" format="enum">
+            <enum name="ABeeZee_Italic" value="0"/>
+            <enum name="AbrilFatface_Regular" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

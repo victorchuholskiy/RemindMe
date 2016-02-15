@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gmail.victorchuholskiy.todolist.fragments.TaskInfoFragment"
+    android:paddingLeft="@dimen/activity_setting_horizontal_margin"
+    android:paddingRight="@dimen/activity_setting_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlackText"
+            android:hint="@string/task_header"
+            android:id="@+id/editTextName"
+            android:textStyle="bold"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlackText"
+            android:hint="@string/task_description"
+            android:id="@+id/editTextDescription"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlackText"
+            android:id="@+id/textViewAlarmOnOff"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlackText"
+            android:id="@+id/textViewTime"
+            android:text="@string/time"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/colorGreyText"
+            android:id="@+id/textViewAlarmDateTime"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="41dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/toneContainer"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:scaleType="center"
+                android:id="@+id/playButton"
+                android:src="@drawable/ic_play_arrow_black"
+                android:layout_gravity="left|center_vertical"/>
+
+            <com.gmail.victorchuholskiy.todolist.view.ToneEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:textColor="@color/colorGreyText"
+                android:id="@+id/textViewAlarmTone"
+                android:layout_gravity="left|center_vertical"
+                app:custom_font="ABeeZee_Italic"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlackText"
+            android:id="@+id/textViewVibrationOnOff"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@color/colorBlackText"
+            android:id="@+id/textViewSendToCalendar"
+            android:layout_marginBottom="5dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
