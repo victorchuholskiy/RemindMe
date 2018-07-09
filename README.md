@@ -1,0 +1,1 @@
+Development of the application-organizer “RemindMe”. A special feature of this application is a synchronization with the user's calendar, intuitive and attractive modern design. The app lets you create notes and plan events include notification via warning or signal, as well as to link the event to the place or attach a picture.
